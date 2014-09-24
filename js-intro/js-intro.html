@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>JavaScript + jQuery Intro</title>
+    <style>
+      * {
+        box-sizing: border-box
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+      }
+      
+      .box {
+        width: 100%;
+        max-width: 800px; 
+        margin: 0 auto;
+      }
+    
+      .grey-background {
+        background: grey
+      }
+      
+      .blue-border {
+        border: 2px solid blue
+      }
+      
+      .action {
+        cursor: pointer;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div id="box" class="box">
+     Hello, I'm a box, in case you didn't know.
+    </div>
+    
+    <button class="action">Do Something</button>
+    
+    <div class="action">Do the same thing</div>
+  
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$("#box").addClass("blue-border");
+</script>
+
+<script>
+$(".action").on('click', function() { 
+
+    $("#box").addClass("blue-border");
+
+});
+</script>
+
+<script>
+$("#box").removeClass("blue-border");
+</script>
+
+    <script>
+// Show note in web console
+console.log("Hello Console!");
+
+// Show popup 
+alert("Hello Popup!");     
+
+// JavaScript
+var name = 'Bob';
+var ageByYear = 24;
+var ageByMonths = ageByYear * 12;
+
+// A popup 
+alert("My Name Is " + name + " and I am" + ageByMonths); 
+    </script>
+
+  </body>
+</html>
