@@ -8,26 +8,22 @@
 .container {
 	width: 1024px;
 	margin: 0 auto;
-}
-
-
-.header {}
+}.header {}
 
 .sidebar {
-	/* hint! */
+	float: right;
+	width: 250px;
+	height: 300px;
+
 }
 
 .main-content {
-	/* hint! */
+	width: 734px;
+	height: 300px;
 }
 
 .footer {
-	/* hint! */
-}
+clear: both;}
 
-/*
-div {
-	margin: 20px;
-}
-*/
+
 /* uncomment me to see if you missed anything! */
