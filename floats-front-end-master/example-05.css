@@ -10,7 +10,11 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+		height: 100px;
+	overflow: auto;
+	}
+}
 /* hint! what do you have to add here? */
 
 .logo {}

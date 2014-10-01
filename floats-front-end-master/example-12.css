@@ -3,20 +3,32 @@
 /* created by Elyse Holladay @elyseholladay ----------------- */
 /* ---------------------------------------------------------- */
 
+.div {
+	padding: 10px;
+}
+
 /* Example 12 */
 
 /* To Do List */
 .todolist {}
 
 /* Individual Todo */
-.todo {}
+.todo {
+		border: 1px solid red;
+}
 
 
 /* Priority icon dot */
-.icon {}
+.icon {
+		border: 1px solid blue;
+		float: left;
+
+}
 
 /* Info of the todo, title and date */
-.todo-info {}
+.todo-info {
+	border: 1px solid black;
+}
 
 /* Title */
 .todo-title {}

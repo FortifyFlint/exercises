@@ -7,12 +7,39 @@
 
 .header {}
 
+.logo {
+	float: left;
+	width: 100px;
+}
+
+.navigation {
+	float: right;
+	width: 200px;
+}
+
 .main-content {}
 /* hint! */
 
 .post {}
 /* hint! */
 
-.image {}
+.post:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
-.post_excerpt {}
+.image {
+	float: left;
+	width: 25%;
+}
+
+.image img {
+	min-height: 200px;
+	min-width: 200px;
+}
+
+.post_excerpt {
+	float: left;
+	width: 70%;
+}
