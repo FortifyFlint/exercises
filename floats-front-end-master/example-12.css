@@ -3,38 +3,79 @@
 /* created by Elyse Holladay @elyseholladay ----------------- */
 /* ---------------------------------------------------------- */
 
-.div {
+/*.div {
 	padding: 10px;
-}
+}*/
 
 /* Example 12 */
 
+.container {
+	margin: auto;
+	width: 75%;
+	background-color: #ffffff;
+
+
+}
+
 /* To Do List */
-.todolist {}
+.todolist {
+	border: 2px solid gray;
+	margin: 0 15px;
+	padding: 30px;
+}
+
+
 
 /* Individual Todo */
 .todo {
-		border: 1px solid red;
+	border-bottom: 1px solid #bbb;
+	padding: 10px;
+
 }
+
+.todo:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
 
 
 /* Priority icon dot */
 .icon {
-		border: 1px solid blue;
-		float: left;
-
+/*		border: 1px solid blue;
+*/		float: left;
+		padding: 0 10px 0 0;
+font-size: 30px;
 }
 
 /* Info of the todo, title and date */
 .todo-info {
-	border: 1px solid black;
+/*	border: 1px solid black;
+*/	float: left;
 }
 
+
+
+
 /* Title */
-.todo-title {}
+.todo-title {
+font-size: 30px;
+font-family: verdana, arial, sans-serif;
+}
+
 
 /* Date */
-.todo-date {}
+.todo-date {
+	font-family: verdana, arial, sans-serif;
+
+}
 
 /* Checkboxes! */
-input[type=checkbox] {}
+input[type=checkbox] {
+	float: right;
+display: block;
+}
+
