@@ -1,6 +1,18 @@
 /* Floats Grid  */
 
-*{box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+}
+
+.div {
+	padding: 5px;
+}
+
+@media screen and (min-width: 500px){
+	.container {
+	margin: 0 auto;
+	background: blue;
+}
 
 .container {
 	background: blue;
@@ -12,25 +24,37 @@
 	max-width: 1000px;
 }
 
+p {
+	font-size: 14px;
+	font-family: verdana;
+	color: #ffffff;
+	text-align: center;
+}
+
+.row {
+	margin-bottom: 20px;
+	border: 1px solid #D6D6D6;
+}
+
+.row:after {
+	content:" ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height:0;
+}
+
+
 .column {
-	border: 1px solid white;
 	padding: 10px;
 	margin: 10px;
+	border: 1px solid #D6D6D6;
 	float: left;
-
-
-}
-
-.row {
-}
-
-.row {
 	display: block;
-	height: 0;
-	clear: both;
-	content: “ ”;
-	visibility: hidden;
+
+
 }
+
 
 .full {
 	width: 100%;
