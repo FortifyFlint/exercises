@@ -3,34 +3,45 @@
 
 
 
-$('#monkey').on('click', function () {
-  // alert("Yup, it's a button.");
-	$( ".gallery div" ).hide();
-	$( ".monkey" ).show();
-	$(".dog .active") .hide();
-	// $(".button") .show ();
-});
-
 // $('#monkey').on('click', function () {
 //   // alert("Yup, it's a button.");
-// 	$( ".gallery div" ).show();
+// 	$( ".gallery div" ).hide();
+// 	$( ".monkey" ).show();
+// 	$(".dog .active") .hide();
+// 	// $(".button") .show ();
 // });
 
-$('#dog').on('click', function () {
-  // alert("Yup, it's a button.");
-	$( ".gallery div" ).hide();
-	$( ".dog" ).show();
-});
 
-$('#cat').on('click', function () {
-  // alert("Yup, it's a button.");
-	$( ".gallery div" ).hide();
-	$( ".cat" ).show();
-});
+// $('#dog').on('click', function () {
+//   // alert("Yup, it's a button.");
+// 	$( ".gallery div" ).hide();
+// 	$( ".dog" ).show();
+// });
 
-$(this.id)
+// $('#cat').on('click', function () {
+//   // alert("Yup, it's a button.");
+// 	$( ".gallery div" ).hide();
+// 	$( ".cat" ).show();
+// });
+
+
+// // or
+
+// $(".filter-button") .on('click', function () {
+// 	var animal  = this.id;
+
+// 	$(".monkey").toggle();
+// 	$("#monkey").toggleClass("active");
+// });
 
 // or
+
+$(".filter-button") .on('click', function () {
+	// var animal  = this.id;
+	
+	$("." + this.id).toggle();
+	$("#" + this.id).toggleClass("active");
+});
 
 // $('button').on('click', 'button', function(){
 
