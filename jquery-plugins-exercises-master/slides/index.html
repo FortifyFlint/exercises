@@ -11,17 +11,30 @@
   <!-- End SlidesJS Required -->
 
   <!-- CSS -->
-  <link rel="stylesheet" href="http://www.slidesjs.com/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://www.slidesjs.com/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://www.slidesjs.com/css/style.css">
+<!--   <link rel="stylesheet" href="http://www.slidesjs.com/css/bootstrap.min.css">
+ -->  
+<!-- <link rel="stylesheet" href="http://www.slidesjs.com/css/font-awesome.min.css">
+ --><link rel="stylesheet" href="http://www.slidesjs.com/css/style.css">
   <!-- End CSS -->
 </head>
+<style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+
+</head>
 <body>
-
-  <!-- Start main content -->
-
-
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="resources/jquery-1.9.1.min.js"></script>
-
-</body></html>
+  <div id="slides">
+    <img src="resources/example-slide-350-1.jpg">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+  </div>
+</body>
