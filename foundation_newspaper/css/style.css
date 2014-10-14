@@ -1,0 +1,20 @@
+.newspaper-page {
+	outline: 2px solid red;
+}
+
+.row {
+    width: px;
+}
+
+.six-up-stories .column {
+    outline: 2px solid blue;
+}
+
+body {
+    color: #444;
+    font-family: "Georgia", "Cambria", Times New Roman, Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Proxima Nova","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
