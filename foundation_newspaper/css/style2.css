@@ -1,0 +1,56 @@
+.newspaper-page {
+	outline: 2px solid red;
+}
+
+.row {
+    width: px;
+/*    border-bottom: 2px solid #ccc;
+*/
+}
+
+
+
+
+body {
+    color: #444;
+    font-size: 1rem;
+    font-family: "Georgia", "Cambria", Times New Roman, Times, serif;
+/*    font-size: .8em;
+*/}
+
+/*p {
+    font-size: .8em;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2daebf;
+    font-family: "avenir", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+
+}
+
+h2 {
+    line-height: 2rem;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .medium-4 {
+        width: 33.33333%;
+    }
+}
+
+.column {
+	padding: 20px;
+}
+
+.padded {
+    border-left: 1px solid #ccc;
+    padding-left: 7px;
+}
